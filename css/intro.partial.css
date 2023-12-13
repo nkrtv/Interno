@@ -1,0 +1,67 @@
+.intro {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 105px 10px;
+}
+
+.intro-title {
+    margin-bottom: 20px;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #292F36;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.intro-text {
+    width: 250px;
+    margin-bottom: 35px;
+    max-width: 577px;
+    color: #4D5053;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+@media(min-width:768px) {
+    .intro {
+        padding: 105px 30px ;
+    }
+    .intro-title {
+        font-size: 60px;
+        line-height: 76px;
+        width: 500px;
+    }
+
+    .intro-text {
+        width: 450px;
+    }
+}
+
+@media(min-width:1024px) {
+    .intro {
+        padding: 105px 50px ;
+    }
+}
+@media(min-width:1440px) {
+    .intro {
+        min-height: 831px;
+        padding: 150px 150px ;
+    }
+    .intro-title {
+        font-size: 80px;
+        line-height: 96px;
+        width: 700px;
+        margin-bottom: 40px;
+    }
+
+    .intro-text {
+        width: 500px;
+        margin-bottom: 40px;
+    }
+}

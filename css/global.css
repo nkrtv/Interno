@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 * {
@@ -9,6 +9,14 @@
 
 :root {
     scroll-behavior: smooth;
+    --title-font-family: 'DM Serif Display', serif;
+    --paragraphs-font-family: 'Jost', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--title-font-family);
 }
 
 img {
@@ -19,6 +27,7 @@ img {
 body {
     max-width: 1440px;
     margin: auto;
+    font-family: var(--paragraphs-font-family);
 }
 
 a {
@@ -28,4 +37,24 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+.btn {
+    width: 180px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292F36;
+    border-radius: 20px;
+    color: #CDA274;
+    font-size: 17px;
+}
+@media(min-width:1440px) {
+    .btn {
+        width: 210px;
+        height: 70px;
+        font-size: 20px;
+    }
+    
 }
