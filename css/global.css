@@ -11,12 +11,15 @@
     scroll-behavior: smooth;
     --title-font-family: 'DM Serif Display', serif;
     --paragraphs-font-family: 'Jost', sans-serif;
+    --title-color: #292F36;
+    --paragraphs-color: #4D5053;
 }
 
 h1,
 h2,
 h3 {
     font-family: var(--title-font-family);
+    color: var(--title-color);
 }
 
 img {
@@ -28,6 +31,7 @@ body {
     max-width: 1440px;
     margin: auto;
     font-family: var(--paragraphs-font-family);
+    color:var(--paragraphs-color);
 }
 
 a {
@@ -50,11 +54,12 @@ ul {
     color: #CDA274;
     font-size: 17px;
 }
+
 @media(min-width:1440px) {
     .btn {
         width: 210px;
         height: 70px;
         font-size: 20px;
     }
-    
+
 }
