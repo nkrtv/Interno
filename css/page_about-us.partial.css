@@ -1,0 +1,64 @@
+.about-us {
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us_title {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40.5px;
+    letter-spacing: 0.22px;
+}
+
+.about-us_items {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us_item {
+    padding: 20px 15px;
+}
+
+.person {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.person-img {
+    height: 77px;
+    width: 77px;
+}
+
+.person-respond {
+    margin-top: 10px;
+}
+
+@media(min-width: 768px) {
+    .about-us_title {
+        padding: 0 100px;
+        font-size: 40px;
+        line-height: 48.5px;
+    }
+
+    .about-us_items {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .about-us_title {
+        padding: 0 200px;
+        font-size: 45px;
+        line-height: 58.5px;
+    }
+
+    .about-us_items {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 20px;
+    }
+}
