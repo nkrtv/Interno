@@ -2,9 +2,7 @@
     display: grid;
     justify-content: center;
     align-items: baseline;
-    margin-top: 30px;
-    padding: 0 10px;
-    gap: 10px;
+    margin: 50px 0;
 }
 
 .info__item {
@@ -19,7 +17,7 @@
     text-align: center;
     font-size: 25px;
     font-weight: 400;
-    line-height: 39px; 
+    line-height: 39px;
     letter-spacing: 0.22px;
 }
 
@@ -28,7 +26,7 @@
     text-align: center;
     font-size: 22px;
     font-weight: 400;
-    line-height: 33px; 
+    line-height: 33px;
     letter-spacing: 0.22px;
 }
 
@@ -37,6 +35,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .arrow-img {
     margin-left: 10px;
     width: 24px;
@@ -46,10 +45,18 @@
 @media(min-width:768px) {
     .info {
         grid-template-columns: 1fr 1fr;
+        margin: 50px 10px;
     }
 }
+
 @media(min-width:1024px) {
     .info {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width:1440px) {
+    .info {
+        margin: 100px 120px;
     }
 }
