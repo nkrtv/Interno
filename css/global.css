@@ -58,7 +58,6 @@ body {
 }
 
 a {
-    font-size: var(--small-font-size);
     text-decoration: none;
     color: inherit;
 }
@@ -77,12 +76,25 @@ ul {
     background-color: #292F36;
     border-radius: 20px;
     color: var(--white);
-    
+    font-size: var(  --lessnormal-font-size);
+    font-family: var(--paragraphs-font-family);
 }
 
 @media(min-width:1440px) {
     .btn {
         height: 70px;
+        font-size: var( --upnormal-font-size);
     }
+}
 
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width:1024px) {
+    .center {
+        display: block;
+    }
 }
