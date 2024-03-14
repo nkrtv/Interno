@@ -35,13 +35,15 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: var(--title-font-family);
     color: var(--title-color);
     font-weight: 400;
 }
 
 p {
+    font-family: var(--paragraphs-font-family);
     font-size: var(--normal-font-size);
     color: var(--paragraphs-color);
     line-height: 33px;
@@ -58,6 +60,7 @@ body {
 }
 
 a {
+    font-family: var(--paragraphs-font-family);
     text-decoration: none;
     color: inherit;
 }
@@ -97,4 +100,8 @@ ul {
     .center {
         display: block;
     }
+}
+
+.small-column {
+    width: 211px;
 }
