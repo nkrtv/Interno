@@ -1,3 +1,4 @@
 @import url(global.css);
 @import url(header-nav.partial.css);
-@import url(page_about-us.partial.css);
+@import url(about-us.partial.css);
+@import url(footer.partial.css);
