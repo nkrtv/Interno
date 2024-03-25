@@ -1,44 +1,69 @@
 .about-us {
     align-items: center;
     justify-content: center;
+    margin: 20px 20px;
+    padding: 20px;
+    border-radius: 35px;
+    background-color: var( --lite-gray);
 }
 
 .about-us_title {
+    margin-bottom: 17px;
     text-align: center;
-    font-weight: 400;
-    letter-spacing: 0.22px;
-    font-size: 45px;
-    line-height: 58.5px;
+    font-size: var(--title-font-size-on-mobile);
 }
 
 .about-us_items {
     display: grid;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
+    gap: 17px;
 }
 
 .about-us_item {
-    padding: 20px 15px;
+    padding: 50px 30px;
+    border-radius: 30px;
+    background-color: var(--white);
 }
 
 .person {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 
 .person-img {
+    margin-right: 20px;
     height: 77px;
     width: 77px;
 }
 
+.person-name {
+    font-family: var(--title-font-family);
+    font-size: var(--upnormal-font-size);
+}
+
+.person-location {
+    font-size: var(--small-font-size);
+    color: var(--gray);
+}
+
 .person-respond {
     margin-top: 10px;
+    font-size: var(--lessnormal-font-size);
 }
 
 @media(min-width: 768px) {
+    .about-us {
+        margin: 20px 30px;
+        padding: 50px;
+        border-radius: 70px;
+    }
     .about-us_items {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .about-us_title {
+        font-size: var(--title-font-size-on-desctop);
     }
 }
 
@@ -50,6 +75,12 @@
 
 @media(min-width: 1440px) {
     .about-us {
+        margin: 20px 120px 0;
         padding: 103px 50px 120px;
+    }
+
+    .about-us_title {
+        margin-bottom: 45px;
+        padding: 0 300px;
     }
 }
