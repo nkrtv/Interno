@@ -1,0 +1,33 @@
+.brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 20px;
+    padding: 0 25px;
+}
+
+
+@media(min-width:768px) {
+    .brands {
+        margin: 50px 30px;
+        padding: 0 50px;
+        
+    }
+}
+
+@media(min-width:1024px) {
+    .brands {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:1440px) {
+    .brands {
+        gap: 100px;
+        margin: 100px 120px;
+    }
+}
+
