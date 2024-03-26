@@ -1,0 +1,79 @@
+.info-numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 50px;
+    background-color: var(--lite-gray);
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.number-value {
+    font-family: var(--title-font-family);
+    font-size: var(--main-font-size-on-desctop);
+    color: var(--lite);
+}
+
+
+.vertical-line {
+    display: none;
+    border-left: 2px solid var(--lite);
+    height: 195px; 
+}
+
+
+@media(min-width:768px) {
+    .info-numbers {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .number {
+        margin-left: 80px;
+    }
+}
+
+@media(min-width:1024px) {
+    .info-numbers {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 30px;
+    }
+
+    .number-info {
+        margin-right: 30px;
+    }
+
+    .number {
+        margin-left: 0;
+    }
+
+    .vertical-line {
+        display: flex;
+    }
+}
+
+@media(min-width:1440px) {
+
+    .info-numbers {
+        margin: 0 120px;
+    }
+
+    .number-info {
+        margin-right: 55px;
+    }
+}

@@ -1,5 +1,6 @@
 @import url(global.css);
 @import url(header-nav.partial.css);
-@import url(brands.partial.css);
+@import url(info-numbers.partial.css);
 @import url(about-us.partial.css);
+@import url(brands.partial.css);
 @import url(footer.partial.css);
