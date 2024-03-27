@@ -2,7 +2,7 @@
 
 This project was undertaken for learning and self-development purposes. It utilizes tools such as HTML, CSS, and JavaScript for web development.
 
-You can view the project by following [this link](#).
+You can view the project by following [this link](https://nkrtv.github.io/Interno/).
 
 ## 🎨 Design Usage
 
